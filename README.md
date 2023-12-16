@@ -29,6 +29,7 @@ docker run --detach \
 --name=runner \
 drone/drone-runner-docker:1
 
+# pipeline
 kind: pipeline
 type: exec
 name: default
