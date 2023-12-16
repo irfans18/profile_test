@@ -1,0 +1,15 @@
+kind: pipeline
+type: exec
+name: default
+
+platform:
+  os: linux
+  arch: amd64
+  
+steps:
+- name: build-docker
+  environment:
+    PASSWORD:
+      from_secret: docker_pass
+  commands:
+  - echo "Test drone runner"
