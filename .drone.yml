@@ -2,9 +2,7 @@ kind: pipeline
 type: exec
 name: default
 
-platform:
-  os: darwin
-  arch: arm64
+
 steps:
 - name: build-docker
   environment:
