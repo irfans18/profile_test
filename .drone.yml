@@ -5,6 +5,7 @@ name: default
 platform:
   os: darwin
   version: [10.16]
+  arch: amd64
 
 steps:
 - name: build-docker
